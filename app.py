@@ -5,7 +5,7 @@ from wsgiref import simple_server
 
 def app(environ, start_response):
     start_response("200 OK", [])
-    return [os.environ["HTTP_X_FORWARDED_FOR"].encode()]
+    return [environ["HTTP_X_FORWARDED_FOR"].encode()]
 
 
 simple_server.ServerHandler.server_software = ""
