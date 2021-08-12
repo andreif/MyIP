@@ -1,6 +1,6 @@
 {
   "name": "MyIP",
-  "repository": "https://github.com/andreif/wsgi-ip",
+  "repository": "https://github.com/andreif/MyIP",
   "buildpacks": [{"url": "https://github.com/andreif/wsgi"}],
   "logo": "http://i.imgur.com/12s2VoU.png",
   "keywords": []
